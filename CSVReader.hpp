@@ -33,14 +33,14 @@ private:
         string t_buffer;
         try {
             if(t_temp.empty()){
-                getline(file, t_temp);
-                getline(file, t_nextLine);
+                getline(t_File, t_temp);
+                getline(t_File, t_nextLine);
             }
             else{
                 t_temp = t_nextLine;
-                getline(file, t_nextLine);
+                getline(t_File, t_nextLine);
             }
-            if(file.eof()) {
+            if(t_File.eof()) {
                 t_hasNextLine = false;
                 t_File.close();
             }
