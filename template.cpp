@@ -22,7 +22,7 @@ int main(){
     /* Read as line
      *
      * reader.readLine()
-     * reader.hasNextLine()
+     * reader.hasNextLine
      * */
 
 
@@ -30,6 +30,5 @@ int main(){
      *
      * reader.print()
      * */
-
     return 0;
 }
